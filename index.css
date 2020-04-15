@@ -1,0 +1,95 @@
+body{
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/15/02/08/cupcakes-1825136_960_720.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.jumbotron {
+  padding: 0px;
+  height: 60px;
+  position: relative;
+  
+  width: 100%;
+  border-bottom:1px solid rgb(156, 9, 102);
+}
+.jumbotron h1{
+  position: relative;
+  bottom: 60px;
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(243, 222, 208);
+  border:1px solid springgreen;
+  border-radius:30px ;
+  background-color: rgb(236, 171, 233);
+}
+.navbar {
+  position: relative;
+  bottom: 90px;
+  left: 200px;
+  width: 400px;
+}
+.dropdown a {
+  color: rgb(7, 124, 22);
+  background-color: rgb(255, 144, 231);
+}
+.col-md-3{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px;
+}
+.card{
+  margin: 10px;
+}
+.card-body {
+  background-color: rgb(200, 248, 232);
+  border-radius: 25px;
+}
+.card-img-top {
+  border-radius: 40px;
+}
+.card-title {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(59, 5, 109);
+  text-align: center;
+  border:1px solid rgb(216, 112, 112);
+  border-radius: 30px;
+  background-color: rgb(231, 174, 100);
+}
+.col-md-3 h4{
+  background-color: cornsilk;
+  font-family: 'Times New Roman', Times, serif;
+  color: cyan;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid cornsilk;
+  border-radius: 20px;
+}
+.col-md-3 p{
+  background-color: cornsilk;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(77, 240, 77);
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid cornsilk;
+  border-radius: 20px;
+}
+.container form{
+  border: 1px solid powderblue;
+  padding: 8px;
+  background-color: rgb(245, 202, 239);
+  border-radius: 10px;
+  position: relative;
+  bottom: 200px;
+}
+label{
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(247, 108, 28);
+}
+footer{
+  border-top: 1px solid rgb(2, 65, 28);
+  color: snow;
+}
